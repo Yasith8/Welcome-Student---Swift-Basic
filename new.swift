@@ -1,7 +1,7 @@
 var studentNames: [String] = []
 
-for i in 1...10 {
-    print("Enter student name \(i):")
+for num in 1...10 {
+    print("Enter student name \(num):")
     let name = readLine()!
     studentNames.append(name)
 }
