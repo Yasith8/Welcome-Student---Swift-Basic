@@ -7,5 +7,10 @@ for num in 1...10 {
 }
 
 for name in studentNames {
-    print("Hi, \(name)")
+    if(studentName=="dora"){
+    print("Hello, Dear Dora)")
+    }
+    else{
+        print("Hi, \(name)")
+    }
 }
